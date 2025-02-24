@@ -14,6 +14,7 @@ public class PresentationV2 {
         /*
          * Injection des dependances par instanciation dynamique
         */
+        System.out.println("Instanciation dynamique");
         try {
             Scanner scanner = new Scanner(new File("config.txt"));
             String daoClassname = scanner.nextLine();

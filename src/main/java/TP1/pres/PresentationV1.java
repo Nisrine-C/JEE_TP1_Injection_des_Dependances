@@ -9,6 +9,7 @@ public class PresentationV1 {
         /*
         * Injection des dependances par instanciation statique => new
         */
+        System.out.println("Instanciation statique");
         DaoImpl d = new DaoImpl(); // couplage fort
         MetierImpl metier = new MetierImpl(d); // Injection via constructeur
         metier.setDao(d); // Injection via le setter
