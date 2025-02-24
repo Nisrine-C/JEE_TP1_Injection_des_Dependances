@@ -1,5 +1,5 @@
 package TP1.dao;
 
-public interface IDAO {
+public interface IDao {
     double getData();
 }
