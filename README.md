@@ -30,7 +30,7 @@ This project is structured to showcase multiple approaches to **Dependency Injec
 ![static.png](static.png)
 
 ### Dynamic Implementation ( Presentation V2 )
-![dynamic.png](dynamique.png
+![dynamic.png](dynamique.png)
 
 ### Implementation via Spring ( XML )
 ![springxml.png](springxml.png)
